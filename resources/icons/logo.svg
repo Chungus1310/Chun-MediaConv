@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8ea262;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5ad5b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8ea262;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dfcca9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5ad5b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="100" cy="100" r="90" fill="url(#gradient1)" opacity="0.9"/>
+  
+  <path d="M 70 60 L 140 100 L 70 140 Z" fill="url(#gradient2)" stroke="#424740" stroke-width="3"/>
+  
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#424740" stroke-width="4" opacity="0.6"/>
+  
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="18" font-weight="bold" 
+        fill="#424740" text-anchor="middle">CHUN</text>
+  
+  <animateTransform attributeName="transform" attributeType="XML" type="rotate"
+                    from="0 100 100" to="360 100 100" dur="20s" repeatCount="indefinite"/>
+</svg>
